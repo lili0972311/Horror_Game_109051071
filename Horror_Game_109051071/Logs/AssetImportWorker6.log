@@ -1,0 +1,575 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.16f1 (4016570cf34f) revision 4200023'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22000) 64bit Core' Language: 'zh' Physical Memory: 8028 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+D:\Unity2.0\2021.3.16f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker6
+-projectPath
+D:/Unity/GitHub_save/Horror_Game_109051071/Horror_Game_109051071
+-logFile
+Logs/AssetImportWorker6.log
+-srvPort
+8591
+Successfully changed project path to: D:/Unity/GitHub_save/Horror_Game_109051071/Horror_Game_109051071
+D:/Unity/GitHub_save/Horror_Game_109051071/Horror_Game_109051071
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [17356] Host "[IP] 192.168.20.119 [Port] 0 [Flags] 2 [Guid] 3835468691 [EditorId] 3835468691 [Version] 1048832 [Id] WindowsEditor(7,200722c25260855) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [17356] Host "[IP] 192.168.20.119 [Port] 0 [Flags] 2 [Guid] 3835468691 [EditorId] 3835468691 [Version] 1048832 [Id] WindowsEditor(7,200722c25260855) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 120.93 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.16f1 (4016570cf34f)
+[Subsystems] Discovering subsystems at path D:/Unity2.0/2021.3.16f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Unity/GitHub_save/Horror_Game_109051071/Horror_Game_109051071/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1650 Ti (ID=0x1f95)
+    Vendor:   NVIDIA
+    VRAM:     3962 MB
+    Driver:   31.0.15.1691
+Initialize mono
+Mono path[0] = 'D:/Unity2.0/2021.3.16f1/Editor/Data/Managed'
+Mono path[1] = 'D:/Unity2.0/2021.3.16f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'D:/Unity2.0/2021.3.16f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56084
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/Unity2.0/2021.3.16f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: D:/Unity2.0/2021.3.16f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.004625 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 74.14 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.582 seconds
+Domain Reload Profiling:
+	ReloadAssembly (582ms)
+		BeginReloadAssembly (89ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (404ms)
+			LoadAssemblies (89ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (95ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (25ms)
+			SetupLoadedEditorAssemblies (242ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (74ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (116ms)
+				ProcessInitializeOnLoadMethodAttributes (44ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.004916 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Unity\GitHub_save\Horror_Game_109051071\Horror_Game_109051071\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Unity\GitHub_save\Horror_Game_109051071\Horror_Game_109051071\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.74 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.928 seconds
+Domain Reload Profiling:
+	ReloadAssembly (928ms)
+		BeginReloadAssembly (116ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (16ms)
+		EndReloadAssembly (710ms)
+			LoadAssemblies (109ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (242ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (45ms)
+			SetupLoadedEditorAssemblies (306ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (75ms)
+				ProcessInitializeOnLoadAttributes (203ms)
+				ProcessInitializeOnLoadMethodAttributes (20ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.54 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3362 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 27 unused Assets / (114.0 KB). Loaded Objects now: 3824.
+Memory consumption went from 116.8 MB to 116.7 MB.
+Total: 3.439200 ms (FindLiveObjects: 0.352200 ms CreateObjectMapping: 0.214500 ms MarkObjects: 2.776700 ms  DeleteObjects: 0.095100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 49300.075911 seconds.
+  path: Assets/預置物/小物件/木桌A.prefab
+  artifactKey: Guid(7b558b26d9c8c7343b0b9f93cc2dfb49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/預置物/小物件/木桌A.prefab using Guid(7b558b26d9c8c7343b0b9f93cc2dfb49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f96e5e209f99090ce2bf536dde0b639') in 0.197395 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.451146 seconds.
+  path: Assets/Decrepit Dungeon LITE/Prefabs/Pillars/Pillar_A.prefab
+  artifactKey: Guid(b93fbb2e189612641be84b2521736734) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Decrepit Dungeon LITE/Prefabs/Pillars/Pillar_A.prefab using Guid(b93fbb2e189612641be84b2521736734) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff6d287d25adaa5db63e7e1a1d9ee11f') in 0.034969 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Decrepit Dungeon LITE/Prefabs/Pillars/Pillar_D.prefab
+  artifactKey: Guid(d23659395a6ea074f811f86d6a0639dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Decrepit Dungeon LITE/Prefabs/Pillars/Pillar_D.prefab using Guid(d23659395a6ea074f811f86d6a0639dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34728537ea163834b38ef989b505c1c2') in 0.024418 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.460475 seconds.
+  path: Assets/Decrepit Dungeon LITE/Prefabs/Props/Arch_Gate.prefab
+  artifactKey: Guid(e8509d0bc33ac9c4088232205ccc9352) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Decrepit Dungeon LITE/Prefabs/Props/Arch_Gate.prefab using Guid(e8509d0bc33ac9c4088232205ccc9352) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80895fce5ffde83c58b479192e5bc827') in 0.029119 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Decrepit Dungeon LITE/Prefabs/Props/Chain_B.prefab
+  artifactKey: Guid(58f563355aadeb3449ef8dea38d684a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Decrepit Dungeon LITE/Prefabs/Props/Chain_B.prefab using Guid(58f563355aadeb3449ef8dea38d684a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11f9e42873b2a20f592d95cef65bdf98') in 0.036815 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Decrepit Dungeon LITE/Prefabs/Props/Chain_C.prefab
+  artifactKey: Guid(60b14b8458acad44090d4c0939e88a86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Decrepit Dungeon LITE/Prefabs/Props/Chain_C.prefab using Guid(60b14b8458acad44090d4c0939e88a86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e08253dfcc22e7c9035c399fdf5f1a45') in 0.036029 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.642097 seconds.
+  path: Assets/Decrepit Dungeon LITE/Prefabs/Stairs/Stairs_A.prefab
+  artifactKey: Guid(b5e6d0f89d317b146a5e063b6c80a8fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Decrepit Dungeon LITE/Prefabs/Stairs/Stairs_A.prefab using Guid(b5e6d0f89d317b146a5e063b6c80a8fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4ef56976b4d14f6703577c5421e09bc') in 0.034861 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Decrepit Dungeon LITE/Prefabs/Stairs/Stairs_D.prefab
+  artifactKey: Guid(d460f9d98afa7634199641174bd537b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Decrepit Dungeon LITE/Prefabs/Stairs/Stairs_D.prefab using Guid(d460f9d98afa7634199641174bd537b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8cfa84ee45894cd50dae14f35ec0f8e6') in 0.040918 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 41.696230 seconds.
+  path: Assets/預置物/地板/地板A.prefab
+  artifactKey: Guid(5565a7445734550469628013f1f9fe79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/預置物/地板/地板A.prefab using Guid(5565a7445734550469628013f1f9fe79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a51cb0d778b253df6cd7c552fb6a772') in 0.034441 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.344034 seconds.
+  path: Assets/預置物/地板/樓梯B.prefab
+  artifactKey: Guid(64425d103345f8a40a8bcd3b254462ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/預置物/地板/樓梯B.prefab using Guid(64425d103345f8a40a8bcd3b254462ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a24eba37bcb5d5bd4124d581db4b7df3') in 0.014728 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.008371 seconds.
+  path: Assets/預置物/地板/樓梯A.prefab
+  artifactKey: Guid(3c102e551d00400468b65c11d5549577) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/預置物/地板/樓梯A.prefab using Guid(3c102e551d00400468b65c11d5549577) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5365d6f11f56acaf2312a08e1db9733') in 0.031442 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.599081 seconds.
+  path: Assets/Decrepit Dungeon LITE/Prefabs/Walls/Ceiling.prefab
+  artifactKey: Guid(9947a6e7e8c8208469c1c86e15f5c089) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Decrepit Dungeon LITE/Prefabs/Walls/Ceiling.prefab using Guid(9947a6e7e8c8208469c1c86e15f5c089) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25eab75bdeddcaa0dfe235ded7e7eb6f') in 0.021458 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Decrepit Dungeon LITE/Prefabs/Walls/Wall_A_Roundabout.prefab
+  artifactKey: Guid(57823a6a1276b094c8239dc3e66b32dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Decrepit Dungeon LITE/Prefabs/Walls/Wall_A_Roundabout.prefab using Guid(57823a6a1276b094c8239dc3e66b32dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5079d09a9be827fbcc69c32d17bb00da') in 0.030380 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Decrepit Dungeon LITE/Prefabs/Walls/Wall_B.prefab
+  artifactKey: Guid(ce73a35450ff20d4ab05c1f0c3cec2dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Decrepit Dungeon LITE/Prefabs/Walls/Wall_B.prefab using Guid(ce73a35450ff20d4ab05c1f0c3cec2dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a078323e3c8e599e87d3496216ed4926') in 0.030221 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Decrepit Dungeon LITE/Prefabs/Walls/Wall_C.prefab
+  artifactKey: Guid(a06d34869919f8646b564dcd7350f9aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Decrepit Dungeon LITE/Prefabs/Walls/Wall_C.prefab using Guid(a06d34869919f8646b564dcd7350f9aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52d3734463a4562805dedd6257db30b7') in 0.035239 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Decrepit Dungeon LITE/Prefabs/Walls/Wall_E.prefab
+  artifactKey: Guid(b3680b2b693885140a0abe782d406308) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Decrepit Dungeon LITE/Prefabs/Walls/Wall_E.prefab using Guid(b3680b2b693885140a0abe782d406308) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f111f065d02dae90fb1f2643a6a316a') in 0.037074 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.440100 seconds.
+  path: Assets/預置物/牆壁/拱門A.prefab
+  artifactKey: Guid(aaf0cfbb7f366c942b42fbd4572305f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/預置物/牆壁/拱門A.prefab using Guid(aaf0cfbb7f366c942b42fbd4572305f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5145745a847852b987ce1afddf3fb566') in 0.031717 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/預置物/牆壁/門牆B.prefab
+  artifactKey: Guid(48ed85b7690a8b24c93b81b21938eb49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/預置物/牆壁/門牆B.prefab using Guid(48ed85b7690a8b24c93b81b21938eb49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1d0a9896c22027c16ea6d1532c81174') in 0.029397 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/預置物/牆壁/柱子C.prefab
+  artifactKey: Guid(0993ca7f8cadd2444aa6442139377c4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/預置物/牆壁/柱子C.prefab using Guid(0993ca7f8cadd2444aa6442139377c4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b3d5c76e6d2ba67c782c67652f01c80') in 0.025585 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/預置物/牆壁/柱子D.prefab
+  artifactKey: Guid(67a8571036642b54face2f180a733995) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/預置物/牆壁/柱子D.prefab using Guid(67a8571036642b54face2f180a733995) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f262dc20f67bddfbb9bc95e890859ca2') in 0.025096 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/預置物/牆壁/門A.prefab
+  artifactKey: Guid(f85f5a69bd039484eb4d5dc07e4cd8d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/預置物/牆壁/門A.prefab using Guid(f85f5a69bd039484eb4d5dc07e4cd8d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e112e24e1d689ad7c9dc3f48d336e215') in 0.029058 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000079 seconds.
+  path: Assets/預置物/牆壁/門C.prefab
+  artifactKey: Guid(5234215e78927ea47ba376d647e18fa2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/預置物/牆壁/門C.prefab using Guid(5234215e78927ea47ba376d647e18fa2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b5fb6bb6a32aa9542229679e6f5f610') in 0.024841 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 237.154263 seconds.
+  path: Assets/預置物/牆壁/牆壁C.prefab
+  artifactKey: Guid(014360023e1c26e4b98f559f211b229a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/預置物/牆壁/牆壁C.prefab using Guid(014360023e1c26e4b98f559f211b229a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29bca98c16c5a0846db000b86235f9c9') in 0.021063 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.014354 seconds.
+  path: Assets/預置物/牆壁/圍牆.prefab
+  artifactKey: Guid(0e565a8ac8679074a87cc279852baa08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/預置物/牆壁/圍牆.prefab using Guid(0e565a8ac8679074a87cc279852baa08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77feee5db8030492d95b87cb156e6fc5') in 0.026743 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/預置物/牆壁/牆壁D.prefab
+  artifactKey: Guid(18168d609645ba6438eae8236832cd8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/預置物/牆壁/牆壁D.prefab using Guid(18168d609645ba6438eae8236832cd8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a380ef1703b198cdf81a0f8c18aeecc') in 0.042555 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/預置物/牆壁/走道A.prefab
+  artifactKey: Guid(dc717de2264d32044ac8cff35e54a046) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/預置物/牆壁/走道A.prefab using Guid(dc717de2264d32044ac8cff35e54a046) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6887ee5757e80aca2065dfcb821d9e63') in 0.022205 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/預置物/牆壁/牆壁圓角落A.prefab
+  artifactKey: Guid(75d10c60fe41af745bb7a8bd4a038adc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/預置物/牆壁/牆壁圓角落A.prefab using Guid(75d10c60fe41af745bb7a8bd4a038adc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bfd2b63ea3281b5cf1e480788f0e323e') in 0.021122 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/預置物/牆壁/牆壁B.prefab
+  artifactKey: Guid(08211db44ba9874408968fc5d20b6284) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/預置物/牆壁/牆壁B.prefab using Guid(08211db44ba9874408968fc5d20b6284) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '213f408c236bbf6bf7b59a632909577e') in 0.022890 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/預置物/牆壁/牆壁B角落.prefab
+  artifactKey: Guid(507207ee9935f03439792c8ffafb1692) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/預置物/牆壁/牆壁B角落.prefab using Guid(507207ee9935f03439792c8ffafb1692) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02012200a01b35b61bf2f0f1f8cd1dd9') in 0.026898 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/預置物/牆壁/牆壁E.prefab
+  artifactKey: Guid(2413a4c5e6adeb74fb4e56f21d421377) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/預置物/牆壁/牆壁E.prefab using Guid(2413a4c5e6adeb74fb4e56f21d421377) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d9abc65fc54baf404b1330ee3d9833b') in 0.029081 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 23.491081 seconds.
+  path: Assets/Decrepit Dungeon LITE/Meshes/Arches.fbx
+  artifactKey: Guid(c5a0cbaff03e01547841e9d71417ea60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Decrepit Dungeon LITE/Meshes/Arches.fbx using Guid(c5a0cbaff03e01547841e9d71417ea60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83f66c8a18e928dc0254ab37917249c6') in 0.109722 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Decrepit Dungeon LITE/Meshes/Pillars.fbx
+  artifactKey: Guid(8e32c35cdca5d9f4b95e36a496a3b596) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Decrepit Dungeon LITE/Meshes/Pillars.fbx using Guid(8e32c35cdca5d9f4b95e36a496a3b596) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '366fafd25cbaf5ae0e7ec43949347d32') in 0.105610 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/Decrepit Dungeon LITE/Meshes/Stairs.fbx
+  artifactKey: Guid(cbcb05563ab6bb046867a0b483b15cd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Decrepit Dungeon LITE/Meshes/Stairs.fbx using Guid(cbcb05563ab6bb046867a0b483b15cd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05b2caf89189e4b3139eff6345d76536') in 0.144876 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Decrepit Dungeon LITE/Meshes/Walls.fbx
+  artifactKey: Guid(6c823a569ab4348479597ed4693bc618) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Decrepit Dungeon LITE/Meshes/Walls.fbx using Guid(6c823a569ab4348479597ed4693bc618) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd02436ff51fea1fe443c971b8b1e845c') in 0.174792 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.135620 seconds.
+  path: Assets/Decrepit Dungeon LITE/Materials/Bricks.mat
+  artifactKey: Guid(2a45119b6529db041a79e08b385c40de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Decrepit Dungeon LITE/Materials/Bricks.mat using Guid(2a45119b6529db041a79e08b385c40de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '821fee4b50c3ebcbf4610417eb337fd8') in 0.125901 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Decrepit Dungeon LITE/Materials/Hay_D.mat
+  artifactKey: Guid(d03fed6c76725874383f2aec252ce72c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Decrepit Dungeon LITE/Materials/Hay_D.mat using Guid(d03fed6c76725874383f2aec252ce72c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02efb580e99eceb832857cc00c4188bc') in 0.024107 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Decrepit Dungeon LITE/Materials/Grunge_B.mat
+  artifactKey: Guid(13fcec13a3cbf1d428c5c89767873fe7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Decrepit Dungeon LITE/Materials/Grunge_B.mat using Guid(13fcec13a3cbf1d428c5c89767873fe7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a904cb25df1e6f7470d9c35e24181826') in 0.022474 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Decrepit Dungeon LITE/Materials/Wood_C.mat
+  artifactKey: Guid(18f96cd0b7113f942bc0d421eaa81466) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Decrepit Dungeon LITE/Materials/Wood_C.mat using Guid(18f96cd0b7113f942bc0d421eaa81466) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a01b55d7f784c51e1bfaefb32f45336') in 0.021183 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Decrepit Dungeon LITE/Materials/Grunge_F.mat
+  artifactKey: Guid(22615be7bda8dbe428e42831a774fa63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Decrepit Dungeon LITE/Materials/Grunge_F.mat using Guid(22615be7bda8dbe428e42831a774fa63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5900d659d3c04adca79a329e67929584') in 0.026564 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Decrepit Dungeon LITE/Materials/Hay_C.mat
+  artifactKey: Guid(d151a519afbb87646a62daee32af9f4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Decrepit Dungeon LITE/Materials/Hay_C.mat using Guid(d151a519afbb87646a62daee32af9f4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd35a0a44607e72cdb397b4fd2cd443dd') in 0.024715 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/Decrepit Dungeon LITE/Materials/Stone_B.mat
+  artifactKey: Guid(8786ddb73d132334086ec1a9f1871797) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Decrepit Dungeon LITE/Materials/Stone_B.mat using Guid(8786ddb73d132334086ec1a9f1871797) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '437898c8007352c73b9cbaa62200faaa') in 0.020695 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Decrepit Dungeon LITE/Materials/Metal_A.mat
+  artifactKey: Guid(02c07345313cb814eb6dcd63462e338a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Decrepit Dungeon LITE/Materials/Metal_A.mat using Guid(02c07345313cb814eb6dcd63462e338a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb20df7b23abdd5cac64d7b11b74fb6a') in 0.020930 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 27.271724 seconds.
+  path: Assets/Decrepit Dungeon LITE/Textures/Cement_B_NRM.png
+  artifactKey: Guid(23125a51be1a15c45b06228cd65a8e1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Decrepit Dungeon LITE/Textures/Cement_B_NRM.png using Guid(23125a51be1a15c45b06228cd65a8e1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0aca0af5e6b37c25c7eecb36879aa4c3') in 0.040874 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Decrepit Dungeon LITE/Textures/Hay_A_NRM.png
+  artifactKey: Guid(0eca23d9f459c52459c4c702656fff64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Decrepit Dungeon LITE/Textures/Hay_A_NRM.png using Guid(0eca23d9f459c52459c4c702656fff64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74046499785990d25b099e2c29f633f3') in 0.017700 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Decrepit Dungeon LITE/Textures/Stone_A.png
+  artifactKey: Guid(f448f41a968ad3f428b7e7aee0f0c2dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Decrepit Dungeon LITE/Textures/Stone_A.png using Guid(f448f41a968ad3f428b7e7aee0f0c2dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae7f9b9b62810a538caae19e6e6ee9f9') in 0.020393 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Decrepit Dungeon LITE/Textures/Stone_B.png
+  artifactKey: Guid(067351177273358488c16a7a314503fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Decrepit Dungeon LITE/Textures/Stone_B.png using Guid(067351177273358488c16a7a314503fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c086e07d4b22eab06f36ee2f2cb89d6') in 0.017927 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000099 seconds.
+  path: Assets/Decrepit Dungeon LITE/Textures/Grunge_B_NRM.png
+  artifactKey: Guid(2c002baead5766949a312dc98a6ccd89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Decrepit Dungeon LITE/Textures/Grunge_B_NRM.png using Guid(2c002baead5766949a312dc98a6ccd89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b59f87f4423ed8057ddedea5246df991') in 0.018210 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Decrepit Dungeon LITE/Textures/Grunge_D.png
+  artifactKey: Guid(e706fd9c9cc1a854aacb615d1511bc64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Decrepit Dungeon LITE/Textures/Grunge_D.png using Guid(e706fd9c9cc1a854aacb615d1511bc64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3e42787b57952a3644e6ee7b35918ee') in 0.014452 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/Decrepit Dungeon LITE/Textures/Grunge_C_NRM.png
+  artifactKey: Guid(d477498a1b4b96945ac0cdac8cd81530) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Decrepit Dungeon LITE/Textures/Grunge_C_NRM.png using Guid(d477498a1b4b96945ac0cdac8cd81530) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b2c255b0513f2396c7662424594c83e') in 0.019728 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Decrepit Dungeon LITE/Textures/Metal_A_NRM.png
+  artifactKey: Guid(8a9ea71e2205a3840a0b70323f63455f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Decrepit Dungeon LITE/Textures/Metal_A_NRM.png using Guid(8a9ea71e2205a3840a0b70323f63455f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '653cabc6b6778007c0bfad46d698550b') in 0.011671 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000088 seconds.
+  path: Assets/Decrepit Dungeon LITE/Textures/Grunge_D_NRM.png
+  artifactKey: Guid(4099fa849ef1fdb4fa93826812dd5617) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Decrepit Dungeon LITE/Textures/Grunge_D_NRM.png using Guid(4099fa849ef1fdb4fa93826812dd5617) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f2e9aaffbc829945f5d005f1eb1f10e') in 0.014581 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Decrepit Dungeon LITE/Textures/Hay_B.png
+  artifactKey: Guid(758519deeaf793440a5146109af38a71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Decrepit Dungeon LITE/Textures/Hay_B.png using Guid(758519deeaf793440a5146109af38a71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a802f98c6a9cfef78f5e26c266d3176') in 0.016290 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004724 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Unity\GitHub_save\Horror_Game_109051071\Horror_Game_109051071\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Unity\GitHub_save\Horror_Game_109051071\Horror_Game_109051071\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.44 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.282 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1283ms)
+		BeginReloadAssembly (183ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (43ms)
+		EndReloadAssembly (1014ms)
+			LoadAssemblies (142ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (384ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (57ms)
+			SetupLoadedEditorAssemblies (399ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (15ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (71ms)
+				ProcessInitializeOnLoadAttributes (270ms)
+				ProcessInitializeOnLoadMethodAttributes (39ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (12ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.74 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3357 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 20 unused Assets / (80.4 KB). Loaded Objects now: 3875.
+Memory consumption went from 121.8 MB to 121.7 MB.
+Total: 5.106400 ms (FindLiveObjects: 0.717500 ms CreateObjectMapping: 0.463000 ms MarkObjects: 3.819300 ms  DeleteObjects: 0.105000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 29.751600 seconds.
+  path: Assets/Decrepit Dungeon LITE/EXAMPLE/Demo_Scene
+  artifactKey: Guid(47bb64a859f000849a7f0399ceb4f80e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Decrepit Dungeon LITE/EXAMPLE/Demo_Scene using Guid(47bb64a859f000849a7f0399ceb4f80e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2a18e3fe522d53889a48c03c7df7007') in 0.017710 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.105952 seconds.
+  path: Assets/Decrepit Dungeon LITE/EXAMPLE/Demo_Scene/LightmapSnapshot.asset
+  artifactKey: Guid(a1a21df98c4ce61418b36c0ce6457b52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Decrepit Dungeon LITE/EXAMPLE/Demo_Scene/LightmapSnapshot.asset using Guid(a1a21df98c4ce61418b36c0ce6457b52) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Lighting data asset ‘LightmapSnapshot’ is incompatible with the current Unity version. Please use Generate Lighting to rebuild the lighting data. Realtime Global Illumination cannot be used until the lighting data is rebuilt.
+Lighting data asset ‘LightmapSnapshot’ is incompatible with the current Unity version because the scene it was baked for was not serialized. Please use Generate Lighting to rebuild the lighting data, or assign the target scene to the Lighting Data Asset in the inspector.
+ -> (artifact id: '3628bd76ead5508bbd789647437280b4') in 0.026551 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.165017 seconds.
+  path: Assets/Decrepit Dungeon LITE/EXAMPLE/Demo_Scene/Materials
+  artifactKey: Guid(0be69875856a60d4c9f28a0d08532421) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Decrepit Dungeon LITE/EXAMPLE/Demo_Scene/Materials using Guid(0be69875856a60d4c9f28a0d08532421) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f92b050304b5dd9c5bdedd8df41c7a3') in 0.002606 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.049938 seconds.
+  path: Assets/Decrepit Dungeon LITE/EXAMPLE/Demo_Scene/Materials/SkyboxProbe-0.mat
+  artifactKey: Guid(375048c1cb86ee144a3f02e9531bd25c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Decrepit Dungeon LITE/EXAMPLE/Demo_Scene/Materials/SkyboxProbe-0.mat using Guid(375048c1cb86ee144a3f02e9531bd25c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '677b3ed0422c3349b607de0a760c04a4') in 0.069235 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 46.615445 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3bcac88ec2681a24fe869243e6fb8ef3') in 0.003233 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 16.098876 seconds.
+  path: Assets/Scenes/遊戲場景.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/遊戲場景.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8195f9059cce9b0d326de6870c05d2e8') in 0.003691 seconds 
