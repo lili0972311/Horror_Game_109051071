@@ -2,6 +2,8 @@
 using UnityEngine;
 using System.Collections;
 using UnityEngine.UIElements;
+using UnityEngine.InputSystem;
+using UnityEngine.Events;
 
 namespace KUMO
 
@@ -16,7 +18,8 @@ namespace KUMO
         private float dialogueIntervalTime = 0.1f;
         [SerializeField, Header("開頭對話")]
         private DialogueData dialogueOpening;
-
+        [SerializeField, Header("對話按鍵")]
+        private KeyCode dialogueKey = KeyCode.Mouse0;
 
         private WaitForSeconds dialogueInterval => new WaitForSeconds(dialogueIntervalTime);
 
@@ -25,6 +28,9 @@ namespace KUMO
         private TextMeshProUGUI textContent;
         private GameObject goCircle;
         #endregion
+        private PlayerInput PlayerInput;
+
+        private UnityEvent onDialogueFinish;
 
         #region 事件區域
         private void Awake()
@@ -35,38 +41,66 @@ namespace KUMO
             goCircle = GameObject.Find("對話完成圖示");
             goCircle.SetActive(false);
 
-            StartCoroutine(FadeGruop());
-            StartCoroutine(TypeEffect());
+            PlayerInput = GameObject.Find("PlayerCapsule").GetComponent<PlayerInput>();
+
+            StartDialogue(dialogueOpening);
         }
         #endregion
+
+        public void StartDialogue(DialogueData data, UnityEvent _onDialogueFinish = null)
+        {
+            PlayerInput.enabled = false;
+            StartCoroutine(FadeGruop());
+            StartCoroutine(TypeEffect(data));
+            onDialogueFinish = _onDialogueFinish;
+        }
 
         /// <summary>
         /// 淡入淡出群組物件
         /// </summary>
         /// <returns></returns>
-        private IEnumerator FadeGruop()
+        private IEnumerator FadeGruop(bool fadeIn = true)
         {
+            ///三元運算子  ?  :
+            float increase = fadeIn ? +0.1f : -0.1f;
+
             for (int i = 0; i < 10; i++)
             {
-                groupDialogue.alpha += 0.1f;
+                groupDialogue.alpha += increase;
                 yield return new WaitForSeconds(0.04f);
             }
         }
 
-        private IEnumerator TypeEffect()
+        private IEnumerator TypeEffect(DialogueData data)
         {
-            textName.text = dialogueOpening.dialoguename;
-            textContent.text = "";
+            textName.text = data.dialoguename;
 
-            string dialogue = dialogueOpening.dialogueContents[0];
-
-            for(int i = 0; i< dialogue.Length; i++)
+            for (int j = 0; j < data.dialogueContents.Length; j++)
             {
-                textContent.text += dialogue[i];
-                yield return dialogueInterval;
+                textContent.text = "";
+                goCircle.SetActive(false);
+
+                string dialogue = data.dialogueContents[j];
+
+                for (int i = 0; i < dialogue.Length; i++)
+                {
+                    textContent.text += dialogue[i];
+                    yield return dialogueInterval;
+                }
+
+                goCircle.SetActive(true);
+
+                //如果 玩家 還沒按下 指定按鍵 等待
+                while (!Input.GetKeyDown(dialogueKey))
+                {
+                    yield return null;
+                }
             }
 
-            goCircle.SetActive(true);
+            StartCoroutine(FadeGruop(false));
+
+            PlayerInput.enabled = true;
+            onDialogueFinish?.Invoke();
         }
     }
 }

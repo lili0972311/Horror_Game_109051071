@@ -357,6 +357,7 @@
 "Assets/DownloadAssets/fantasySpider/FSP_ContinuousRotation.cs"
 "Assets/Scripts/DialogueData.cs"
 "Assets/Scripts/DialogueSystem.cs"
+"Assets/Scripts/InteractableSystem.cs"
 "Assets/StarterAssets/FirstPersonController/Scripts/BasicRigidBodyPush.cs"
 "Assets/StarterAssets/FirstPersonController/Scripts/FirstPersonController.cs"
 "Assets/StarterAssets/InputSystem/StarterAssetsInputs.cs"
